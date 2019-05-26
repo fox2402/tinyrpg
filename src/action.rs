@@ -1,4 +1,4 @@
-mod entity;
+use crate::entity;
 
 pub enum Action_type
 {
