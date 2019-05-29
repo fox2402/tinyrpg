@@ -1,3 +1,5 @@
+use crate::action;
+
 struct Main_player
 {
     max_health : i32,
@@ -8,9 +10,9 @@ struct Main_player
 
 impl entity::Entity for Main_player
 {
-    fn play_turn(&self)
+    fn play_turn(&self) -> action::Action
     {
-
+        action::Action;
     }
 
     fn take_dmg(&self, val : i32) -> bool
